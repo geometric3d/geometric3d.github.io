@@ -62,12 +62,14 @@
 
       <h2>Course Description</h2>
       <p>
-        Any autonomous agent we develop must perceive and act in a 3D world. The ability to infer, model, and utilize 3D
-        representations is therefore of central importance in AI, with applications ranging from robotic manipulation
-        and self-driving to virtual reality and image manipulation. While 3D understanding has been a longstanding goal
-        in computer vision, it has witnessed several impressive advances due to the rapid recent progress in (deep)
-        learning techniques. The goal of this course is to explore this confluence of 3D Vision and Learning-based
-        methods. In particular, this course will cover topics including -
+        The course focuses on the geometric aspects of computer vision: The geometry of image formation and its use for 3D
+        reconstruction and calibration. The objective of the course is to introduce the formal tools and results that are 
+        necessary for developing multi-view reconstruction algorithms. The fundamental tools introduced study affine and 
+        projective geometry, which are essential to the development of image formation models. Additional algebraic tools, 
+        such as exterior algebras are also introduced at the beginning of the course. These tools are then used to develop 
+        formal models of geometric image formation for a single view (camera model), two views (fundamental matrix), and 
+        three views (trifocal tensor); 3D reconstruction from multiple images; and auto-calibration. In particular, this course
+        will cover topics including -
 
         <br>
 
@@ -75,35 +77,47 @@
           <table id="topics" style="width:80%">
             <tr>
               <td colspan="2">
-                <left>&bull; Explicit, Implicit, and Neural 3D Representations</left>
+                <left>&bull; Fundamentals of projective, affine, and Euclidean geometries</left>
               </td>
               <td>
-                <left>&bull; Differentiable Rendering</left>
+                <left>&bull; Invariance and duality</left>
               </td>
             </tr>
             <tr>
               <td colspan="2">
-                <left>&bull; Single-view 3D Prediction: Objects, Scenes, and Humans</left>
+                <left>&bull; Algebraic tools</left>
               </td>
               <td>
-                <left>&bull; Neural Rendering</left>
+                <left>&bull; Single view geometry: The pinhole model</left>
               </td>
             </tr>
             <tr>
-              <td colspan="3">
-                <left>&bull; Multi-view 3D Inference: Radiance Fields, Multi-plane Images, Implicit Surfaces, etc.
-                </left>
+              <td colspan="2">
+                <left>&bull; Calibration techniques</left>
+              </td>
+              <td>
+                <left>&bull; 2-view geometry: The Fundamental matrix</left>
               </td>
             </tr>
             <tr>
-              <td>
-                <left>&bull; Generative 3D Models</left>
+              <td colspan="2">
+                <left>&bull; 2-view reconstruction</left>
               </td>
               <td>
-                <left>&bull; Shape Abstraction</left>
+                <left>&bull; 3-view geometry: The trifocal tensor</left>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <left>&bull; Parameter estimation and uncertainty</left>
               </td>
               <td>
-                <left>&bull; Mesh and Point cloud processing</left>
+                <left>&bull; n-view reconstruction</left>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <left>&bull; Self-calibration</left>
               </td>
             </tr>
           </table>
@@ -131,13 +145,6 @@
         </br>
         <br>
         <h3> Teaching Assistants </h3>
-
-        <div class="instructor">
-<!--           <a href="https://www.battal.me"> -->
-<!--             <div class="instructorphoto"><img src="./data/Benjamin.jpg"></div> -->
-            <div>Benjamin Attal</div>
-<!--           </a> -->
-        </div>
 
         <div class="instructor">
 <!--           <a href="https://jasonyzhang.com"> -->
