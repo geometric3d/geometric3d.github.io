@@ -79,7 +79,7 @@ a:hover {
 
 #header {
     width: 1040px;
-	height: 200px;
+    height: auto;
     margin: 0 auto;
 }
 
